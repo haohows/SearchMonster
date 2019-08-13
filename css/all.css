@@ -103,7 +103,7 @@ a {
 @media (max-width: 779px) {
   .wrap {
     background-image: url(../img/bg-m.jpg);
-    background-size: contain;
+    background-size: 100%;
   }
 }
 
