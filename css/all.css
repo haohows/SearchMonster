@@ -102,6 +102,7 @@ a {
 
 @media (max-width: 779px) {
   .wrap {
+    width: 375px;
     background-size: cover;
     background-attachment: fixed;
   }
