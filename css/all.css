@@ -100,6 +100,13 @@ a {
   background-attachment: fixed;
 }
 
+@media (max-width: 779px) {
+  .wrap {
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
