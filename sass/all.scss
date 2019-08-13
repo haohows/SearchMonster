@@ -71,7 +71,7 @@ a {
 @media (max-width:$mobile-size) {
     .wrap {
         background-image: url(../img/bg-m.jpg);
-        background-size: cover;
+        max-width: $mobile-size;
         background-attachment: fixed;
     }
 }
