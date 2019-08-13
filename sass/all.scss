@@ -68,6 +68,12 @@ a {
     background-attachment: fixed;
 }
 
+@media(max-width:$mobile-size) {
+    .wrap {
+        background-size: auto;
+    }
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
