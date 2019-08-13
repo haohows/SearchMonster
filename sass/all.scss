@@ -68,11 +68,9 @@ a {
     background-attachment: fixed;
 }
 
-@media(max-width:$mobile-size) {
+@media (max-width:$mobile-size) {
     .wrap {
-        width: 375px;
-        background-size: cover;
-        background-attachment: fixed;
+        background-image: url(../img/bg-m.jpg);
     }
 }
 
